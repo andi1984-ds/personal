@@ -15,7 +15,7 @@ const AllPostsList: FC<{
           {posts.map((post) => (
             <li key={post.slug}>
               <article>
-                <BlogPostCard post={post} type={type} />
+                <BlogPostCard post={post} />
               </article>
             </li>
           ))}
